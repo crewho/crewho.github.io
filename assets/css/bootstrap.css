@@ -68,7 +68,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
@@ -4627,10 +4627,13 @@ input[type="submit"].btn-block {
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    color: white;
+    font-style: italic;
 }
 .nav-link:focus,
 .nav-link:hover {
     text-decoration: none;
+    color: #F8931F;
 }
 .nav-link.disabled {
     color: #6c757d;
@@ -4710,7 +4713,7 @@ input[type="submit"].btn-block {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
 }
 .navbar .container,
 .navbar .container-fluid,
