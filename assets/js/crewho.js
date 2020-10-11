@@ -7,7 +7,7 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
-  
+
 $(document).ready(function () {
     $("#nav-icon4").click(function () {
         $(this).toggleClass("open");
@@ -26,4 +26,4 @@ $(document).ready(function () {
                 $("html, body").animate({ scrollTop: $(e).offset().top - 55 }, 750);
             }
         });
-}),
+})
