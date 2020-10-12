@@ -56,7 +56,7 @@
     }
   }
  
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
       .hamburger {
           display: none;
       }
@@ -182,11 +182,16 @@
     font-size: 1.5rem;
     border-radius: 0.75rem;
     transition: 750ms;
+    font-weight: 600;
 }
 @media (min-width: 768px) {
     .home .device-galaxy-s8 {
         transform: scale(1);
         margin-top: 5rem;
+    }
+    .home .hero-title{
+        padding: 0rem;
+        font-size: 3rem;
     }
 }
 @media (min-width: 992px) {
