@@ -161,7 +161,9 @@
 }
 .hero-title {
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    margin-bottom: 2.5rem;
 }
 .hero-paragraph {
     color: #00909e;
@@ -178,7 +180,7 @@
 .hero-text .btn-lg {
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
-    border-radius: 2rem;
+    border-radius: 0.75rem;
     transition: 750ms;
 }
 @media (min-width: 768px) {
@@ -190,7 +192,7 @@
 @media (min-width: 992px) {
     .hero-text {
         text-align: left;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .hero-title {
         font-size: 4.5rem;

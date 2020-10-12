@@ -16,7 +16,7 @@
     z-index: 1;
 }
 .device .device-content {
-    background-color: #fff;
+    background-color: black;
     background-position: center center;
     background-size: cover;
     object-fit: cover;
