@@ -470,11 +470,11 @@
     width: 380px;
 }
 .device-galaxy-s8 .device-frame {
-    background: #dae1e7;
-    border: solid #dae1e7;
+    background: #1c1d1d;
+    border: solid #F8931F;
     border-radius: 55px;
     border-width: 5px 0;
-    box-shadow: inset 0 0 0 2px #9c9c9c;
+    /* box-shadow: inset 0 0 0 2px #9c9c9c; */
     height: 828px;
     padding: 48px 10px 40px 10px;
     width: 380px;
@@ -502,7 +502,7 @@
     right: 48px;
 }
 .device-galaxy-s8 .device-sensors {
-    background: #b8c0c7;
+    background: #666;
     border-radius: 3px;
     height: 6px;
     left: 50%;
@@ -514,28 +514,28 @@
 }
 .device-galaxy-s8 .device-sensors::after,
 .device-galaxy-s8 .device-sensors::before {
-    background: #b8c0c7;
+    background: #666;
     border-radius: 50%;
     content: "";
     position: absolute;
     top: 50%;
 }
 .device-galaxy-s8 .device-sensors::after {
-    box-shadow: -192px 0 #b8c0c7, -174px 0 #b8c0c7, -240px 0 #b8c0c7;
+    box-shadow: -192px 0 #333, -174px 0 #333, -240px 0 #333;
     height: 8px;
     margin-top: -4px;
     right: -90px;
     width: 8px;
 }
 .device-galaxy-s8 .device-sensors::before {
-    box-shadow: 186px 0 #b8c0c7;
+    box-shadow: 186px 0 #666;
     height: 12px;
     left: -90px;
     margin-top: -6px;
     width: 12px;
 }
 .device-galaxy-s8 .device-btns {
-    background: #9c9c9c;
+    background: #F8931F;
     border-radius: 3px 0 0 3px;
     height: 116px;
     left: -3px;
@@ -544,7 +544,7 @@
     width: 3px;
 }
 .device-galaxy-s8 .device-btns::after {
-    background: #9c9c9c;
+    background: #F8931F;
     border-radius: 3px 0 0 3px;
     content: "";
     height: 54px;
@@ -554,7 +554,7 @@
     width: 3px;
 }
 .device-galaxy-s8 .device-power {
-    background: #9c9c9c;
+    background: #F8931F;
     border-radius: 0 3px 3px 0;
     height: 54px;
     position: absolute;
