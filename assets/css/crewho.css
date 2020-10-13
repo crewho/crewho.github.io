@@ -256,7 +256,13 @@
 }
 
 .about .title{
-    margin-top: 3rem;
+    margin-top: 12.5vh;
+}
+
+.about p{
+    font-size: 1.35rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 .how {
