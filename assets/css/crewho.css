@@ -161,7 +161,7 @@
 }
 
 .home {
-    overflow: visible;
+    overflow: hidden;
 }
 
 .home .device-galaxy-s8 {
@@ -250,6 +250,9 @@
 .title{
     font-family: BigNoodleTitling;
     font-style: italic;
+    font-size: 5rem;
+    color: #F8931F;
+    text-align: center;
 }
 
 .how {
