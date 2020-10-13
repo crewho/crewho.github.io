@@ -244,7 +244,12 @@
 
 /* about section */
 .about{
-    
+
+}
+
+.title{
+    font-family: BigNoodleTitling;
+    font-style: italic;
 }
 
 .how {
