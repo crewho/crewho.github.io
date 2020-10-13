@@ -159,7 +159,7 @@
 }
 
 .home {
-    overflow: hidden;
+    overflow: visible;
 }
 
 .home .device-galaxy-s8 {
