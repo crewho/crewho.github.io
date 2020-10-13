@@ -4015,7 +4015,7 @@ input[type="submit"].btn-block {
     display: block;
 }
 .navbar {
-    position: sticky !important;
+    /* position: sticky !important; */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
