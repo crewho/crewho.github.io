@@ -189,7 +189,7 @@
         transform: scale(1);
         margin-top: 5rem;
     }
-    .home .hero-title{
+    .hero-title{
         padding: 0rem;
         font-size: 3rem;
     }
@@ -197,10 +197,7 @@
 @media (min-width: 992px) {
     .hero-text {
         text-align: left;
-        margin-top: 10%;
-    }
-    .hero-title {
-        font-size: 4.5rem;
+        margin-top: 20%;
     }
 }
 @media (min-width: 1200px) {
@@ -209,12 +206,15 @@
         box-shadow: 20px 20px 35px -20px rgba(0, 0, 0, 0.5);
         -webkit-box-shadow: 20px 20px 35px -20px rgba(0, 0, 0, 0.5);
     }
-    .hero-text .btn:hover {
-        background-color: #00abbb;
-        border-color: #00abbb;
-    }
     .hero-text .main-button {
         width: max-content;
+    }
+    .hero-text {
+        text-align: left;
+        margin-top: 12.5%;
+    }
+    .hero-title {
+        font-size: 4rem;
     }
 }
 @media (min-width: 1400px) {
