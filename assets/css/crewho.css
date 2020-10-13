@@ -255,6 +255,10 @@
     text-align: center;
 }
 
+.about .title{
+    margin-top: 3rem;
+}
+
 .how {
     margin-top: 2rem;
 }
