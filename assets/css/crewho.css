@@ -265,6 +265,57 @@
     text-align: center;
 }
 
+.bg-text{
+    position: sticky;
+    top: 5vh;
+    -webkit-text-stroke: 5px #1C1C1C;
+    z-index: -1;
+    font-family: BigNoodleTitling;
+    font-style: italic;
+    font-size: 13rem ;
+    color: transparent;
+    /* background-attachment: fixed; */
+    text-align: right;
+    line-height: normal;
+    display: none;
+}
+
+@media (min-width: 768px){
+    .title{
+        font-size: 8rem;
+    }
+    .about p{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px){
+    .title{
+        text-align: left;
+        font-size: 10rem;
+    }
+    .about .title{
+        margin-top: 5vh;
+        margin-bottom: 0;
+    }
+    .about p{
+        text-align: left;
+        font-size: 2rem;
+        padding:0 20vw 0 0;
+    }
+    .bg-text{
+        display: block;
+    }
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
+}
+
 .how {
     margin-top: 2rem;
 }
