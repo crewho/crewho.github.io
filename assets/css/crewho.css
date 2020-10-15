@@ -306,13 +306,26 @@
     .bg-text{
         display: block;
     }
+    .home{
+        overflow: visible;
+    }
 }
 
 @media (min-width: 1200px){
-
+    .bg-text{
+        font-size: 15rem;
+        top: 2.5vh;
+    }
+    .about .title{
+        margin-top: 10vh;
+    }
 }
 
 @media (min-width: 1400px){
+
+}
+
+@media (min-width: 1700px) {
 
 }
 
