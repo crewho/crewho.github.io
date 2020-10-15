@@ -329,7 +329,13 @@
 }
 
 @media (min-width: 1700px) {
-
+    .bg-text{
+        font-size: 17.5rem;
+        top: 7.5vh;
+    }
+    .about .title{
+        margin-top: 15vh;
+    }
 }
 
 .how {
