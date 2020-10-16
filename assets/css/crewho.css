@@ -354,15 +354,30 @@
 
 .features .device-galaxy-s8{
     display: none;
+    z-index: 0;
 }
-@media (min-width: 768px){
 
+@media (min-width: 768px){
+    .features .device-galaxy-s8{
+        display: block;
+        transform: scale(0.75);
+        margin-top: -10rem;
+    }
+    .features .title{
+        margin-top: -5rem;
+    }
 }
 
 @media (min-width: 992px){
     .features p{
         text-align: left;
         font-size: 2rem;
+    }
+    .features .title{
+        margin-top: 10vh;
+    }
+    .features .device-galaxy-s8{
+        margin-top: -5rem;
     }
 }
 
