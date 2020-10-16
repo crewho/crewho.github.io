@@ -393,7 +393,12 @@
 }
 
 @media (min-width: 1700px){
-
+    .features .device-galaxy-s8{
+        margin-top: 4rem;
+    }
+    .features .title{
+        margin-top: 20vh;
+    }
 }
 
 .how {
