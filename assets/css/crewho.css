@@ -298,7 +298,7 @@
         text-align: left;
         font-size: 10rem;
     }
-    .about .title{
+    .title{
         margin-top: 5vh;
         margin-bottom: 0;
     }
@@ -320,7 +320,7 @@
         font-size: 15rem;
         top: 2.5vh;
     }
-    .about .title{
+    .title{
         margin-top: 10vh;
     }
 }
@@ -334,9 +334,48 @@
         font-size: 17.5rem;
         top: 7.5vh;
     }
-    .about .title{
+    .title{
         margin-top: 15vh;
     }
+}
+
+/* features section */
+.features{
+    overflow: visible;
+}
+.features p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.features .title{
+    margin-top: 5rem;
+}
+
+.features .device-galaxy-s8{
+    display: none;
+}
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+    .features p{
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+    
+}
+
+@media (min-width: 1700px){
+
 }
 
 .how {
@@ -351,10 +390,7 @@
 .how .row {
     margin-top: -6rem;
 }
-.how .device-galaxy-s8 {
-    transform: scale(0.5);
-    margin-top: -12rem;
-}
+
 .how .how-title {
     font-weight: 700;
     text-align: center;
