@@ -386,7 +386,10 @@
 }
 
 @media (min-width: 1400px){
-    
+    .features .device-galaxy-s8{
+        transform: scale(0.9);
+        margin-top: -3rem;
+    }
 }
 
 @media (min-width: 1700px){
