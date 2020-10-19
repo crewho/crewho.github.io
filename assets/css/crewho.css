@@ -530,8 +530,12 @@
         font-size: 1.5rem;
     }
 }
+
+/* testimonials */
+
+/* 
 .testimonials {
-    background-color: #00909e;
+    background-color: #00909e; 
     text-align: center;
     margin-top: 2rem;
 }
@@ -616,7 +620,8 @@
     .testimonials .carousel-control-next {
         right: 200px;
     }
-}
+} */
+
 .youtube .container {
     min-height: 50vh;
     display: flex;
