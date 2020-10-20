@@ -433,7 +433,19 @@
 }
 
 @media (min-width: 768px){
-
+    .quote{
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+    .who{
+        font-size: 1.5rem;
+    }
+    .use{
+        font-size: 1rem;
+    }
+    .testimonials img{
+        width: 600px;
+    }
 }
 
 @media (min-width: 992px){
