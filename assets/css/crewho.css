@@ -414,7 +414,7 @@
 
 .quote{
     font-size: 1.25rem;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     margin-bottom: 2rem;
     font-weight: 500;
 }
@@ -430,6 +430,26 @@
 
 .testimonials .container .col-lg-5{
     text-align: center;
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 1700px){
+
 }
 
 .how {
