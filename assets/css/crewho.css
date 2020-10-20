@@ -488,7 +488,21 @@
 }
 
 @media (min-width: 1700px){
-
+    .quote{
+        margin-top: 27.5vh;
+        font-size: 2rem;
+        width: 130%;
+    }
+    .who{
+        font-size: 1.35rem;
+    }
+    .use{
+        font-size: 1rem;
+    }
+    .testimonials img{
+        margin-top: 20vh;
+        width: 120%;
+    }
 }
 
 .how {
