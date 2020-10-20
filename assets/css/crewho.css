@@ -428,7 +428,7 @@
     width: 300px;
 }
 
-.testimonials .container .col-lg-5{
+.testimonials .container .col-lg-6{
     text-align: center;
 }
 
@@ -449,7 +449,24 @@
 }
 
 @media (min-width: 992px){
-
+    .testimonials p{
+        text-align: left;
+    }
+    .quote{
+        font-size: 1.5rem;
+        margin-top: 25vh;
+        width: 120%;
+    }
+    .who{
+        font-size: 1rem;
+    }
+    .use{
+        font-size: 0.75rem;
+    }
+    .testimonials img{
+        width: 105%;
+        margin-top: 20vh;
+    }
 }
 
 @media (min-width: 1200px){
