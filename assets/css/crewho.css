@@ -406,6 +406,32 @@
     }
 }
 
+/* testimonials section*/
+
+.testimonials p{
+    text-align: center;
+}
+
+.quote{
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.use{
+    font-size: 0.75rem;
+    color: #F8931F;
+}
+
+.testimonials img{
+    width: 300px;
+}
+
+.testimonials .container .col-lg-5{
+    text-align: center;
+}
+
 .how {
     margin-top: 2rem;
 }
