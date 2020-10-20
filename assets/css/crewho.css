@@ -470,7 +470,17 @@
 }
 
 @media (min-width: 1200px){
-
+    .testimonials img{
+        margin-top: 15vh;
+    }
+    .quote{
+        font-size: 1.75rem;
+        margin-top: 22.5vh;
+    }
+    .who{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
 }
 
 @media (min-width: 1400px){
