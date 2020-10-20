@@ -309,6 +309,7 @@
     }
     .bg-text{
         display: block;
+        padding: 0 5rem;
     }
     .home{
         overflow: visible;
@@ -318,7 +319,7 @@
 @media (min-width: 1200px){
     .bg-text{
         font-size: 15rem;
-        top: 2.5vh;
+        top: 0vh;
     }
     .title{
         margin-top: 10vh;
@@ -326,13 +327,17 @@
 }
 
 @media (min-width: 1400px){
-
+    .bg-text{
+        padding: 0rem 10rem;
+        top: 2.5vh;
+    }
 }
 
 @media (min-width: 1700px) {
     .bg-text{
         font-size: 17.5rem;
         top: 7.5vh;
+        padding: 0 20rem;
     }
     .title{
         margin-top: 15vh;
