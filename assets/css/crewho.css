@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'BigNoodleTitling';
-    src: url('../fonts/big_noodle_titling_oblique.ttf') format('ttf')
+    src: url('../fonts/big_noodle_titling_oblique.ttf') format('ttf'),
          url('../fonts/big_noodle_titling_oblique-webfont.woff2') format('woff2'),
          url('../fonts/big_noodle_titling_oblique-webfont.woff') format('woff');
     font-weight: 500;
