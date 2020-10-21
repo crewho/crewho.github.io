@@ -414,7 +414,7 @@
 
 .quote{
     font-size: 1.25rem;
-    margin-top: 4.5rem;
+    /* margin-top: 4.5rem; */
     margin-bottom: 2rem;
     font-weight: 500;
 }
@@ -435,7 +435,7 @@
 @media (min-width: 768px){
     .quote{
         font-size: 2rem;
-        margin-top: 2.5rem;
+        /* margin-top: 2.5rem; */
     }
     .who{
         font-size: 1.5rem;
@@ -454,7 +454,7 @@
     }
     .quote{
         font-size: 1.5rem;
-        margin-top: 25vh;
+        /* margin-top: 25vh; */
         width: 120%;
     }
     .who{
@@ -465,17 +465,18 @@
     }
     .testimonials img{
         width: 105%;
-        margin-top: 20vh;
+        /* margin-top: 20vh; */
+        transform: translateY(-5rem);
     }
 }
 
 @media (min-width: 1200px){
     .testimonials img{
-        margin-top: 15vh;
+        /* margin-top: 15vh; */
     }
     .quote{
         font-size: 1.75rem;
-        margin-top: 22.5vh;
+        /* margin-top: 22.5vh; */
     }
     .who{
         font-size: 1.25rem;
@@ -489,7 +490,7 @@
 
 @media (min-width: 1700px){
     .quote{
-        margin-top: 27.5vh;
+        /* margin-top: 27.5vh; */
         font-size: 2rem;
         width: 130%;
     }
@@ -500,30 +501,34 @@
         font-size: 1rem;
     }
     .testimonials img{
-        margin-top: 20vh;
+        /* margin-top: 20vh; */
         width: 120%;
     }
 }
 
 /* ywait section */
-
-.ywait h1{
+/* .ywait h1{
     font-family: BigNoodleTitling;
     font-style: italic;
     font-size: 5rem;
     text-align: center;
-    /* margin-top: 40vh; */
+    margin-top: 40vh;
+} */
 
+.ywait .title{
+    color: white;
 }
 
 @media (min-width: 768px){
-    .ywait h1{
+    .ywait .title{
         font-size: 8rem;
     }
 }
 
 @media (min-width: 992px){
-
+    .ywait .title{
+        font-size: 5rem;
+    }
 }
 
 @media (min-width: 1200px){
