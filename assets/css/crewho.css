@@ -505,6 +505,37 @@
     }
 }
 
+/* ywait section */
+
+.ywait h1{
+    font-family: BigNoodleTitling;
+    font-style: italic;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 20vh;
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 1700px){
+
+}
+
 .how {
     margin-top: 2rem;
 }
