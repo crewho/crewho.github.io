@@ -574,6 +574,12 @@
     }
 }
 
+@media (min-width: 1200px){
+    .tagline .title{
+        font-size: 10rem;
+    }
+}
+
 .how {
     margin-top: 2rem;
 }
