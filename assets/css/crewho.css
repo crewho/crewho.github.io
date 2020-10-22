@@ -567,6 +567,10 @@
 @media (min-width: 992px){
     .tagline .title{
         text-align: center;
+        line-height: 1;
+    }
+    .tagline .main-button{
+        margin-top: 2rem;
     }
 }
 
