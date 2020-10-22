@@ -165,6 +165,10 @@
     left: 8px;
 } */
 
+p {
+    font-style: italic;
+}
+
 /* home/hero section */
 
 .device-galaxy-s8 {
@@ -189,6 +193,7 @@
     font-size: 2rem;
     padding: 0rem 2rem;
     margin-bottom: 2.5rem;
+    font-style: italic;
 }
 .hero-paragraph {
     color: #00909e;
