@@ -241,6 +241,9 @@
     .hero-title {
         font-size: 4rem;
     }
+    .main-button .btn-lg{
+        padding: 0.75rem 3rem;
+    }
 }
 @media (min-width: 1400px) {
     .home .device-galaxy-s8 {
