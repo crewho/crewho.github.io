@@ -558,6 +558,11 @@
     font-size: 4rem;
 }
 
+@media (min-width: 768px){
+    .tagline .title{
+        font-size: 8rem;
+    }
+}
 
 .how {
     margin-top: 2rem;
