@@ -202,7 +202,7 @@
     font-size: 1.25rem;
     margin-bottom: 2rem;
 }
-.hero-text .btn-lg {
+.main-button .btn-lg {
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     border-radius: 0.75rem;
@@ -561,6 +561,12 @@
 @media (min-width: 768px){
     .tagline .title{
         font-size: 8rem;
+    }
+}
+
+@media (min-width: 992px){
+    .tagline .title{
+        text-align: center;
     }
 }
 
