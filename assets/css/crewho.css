@@ -277,10 +277,10 @@ p {
     color: #F8931F;
     text-align: center;
 }
-
+/* 
 .about .title{
-    /* margin-top: 12.5vh; */
-}
+    margin-top: 12.5vh; 
+} */
 
 .about p{
     font-size: 1.35rem;
@@ -490,9 +490,9 @@ p {
 }
 
 @media (min-width: 1200px){
-    .testimonials img{
-        /* margin-top: 15vh; */
-    }
+    /* .testimonials img{
+         margin-top: 15vh;
+    } */
     .quote{
         font-size: 1.75rem;
         /* margin-top: 22.5vh; */
@@ -1090,9 +1090,9 @@ footer .footer-icons {
     footer .container .nav .nav-link {
         padding-top: 0;
     }
-    footer .nav .nav-item {
+    /* footer .nav .nav-item {
         font-size: 0.75rem;
-    }
+    } */
 }
 @media (min-width: 1700px) {
     footer h1 {
