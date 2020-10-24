@@ -989,12 +989,19 @@ footer {
     overflow: hidden;
 }
 footer .container {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
+
 footer p {
     color: black;
-    font-size: 0.1rem;
+    font-size: 0.675rem;
     text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.credits {
+    margin-bottom: 1rem;
 }
 footer .container h2 {
     color: black;
