@@ -26,6 +26,13 @@ $(document).ready(function () {
                 $("html, body").animate({ scrollTop: $(e).offset().top - 55 }, 750);
             }
         });
+        $(".nav a").on("click", function () {
+            if ("" !== this.hash) {
+                event.preventDefault();
+                var e = this.hash;
+                $("html, body").animate({ scrollTop: $(e).offset().top - 55 }, 750);
+            }
+        });
 })
 
 $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
