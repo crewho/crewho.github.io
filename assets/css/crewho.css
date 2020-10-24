@@ -328,7 +328,7 @@ p {
     }
     .bg-text{
         display: block;
-        padding: 0 5rem;
+        /* padding: 0 5rem; */
     }
     .home{
         overflow: visible;
@@ -347,7 +347,7 @@ p {
 
 @media (min-width: 1400px){
     .bg-text{
-        padding: 0rem 10rem;
+        /* padding: 0rem 10rem; */
         top: 2.5vh;
     }
 }
@@ -356,7 +356,7 @@ p {
     .bg-text{
         font-size: 17.5rem;
         top: 7.5vh;
-        padding: 0 20rem;
+        /* padding: 0 20rem; */
     }
     .title{
         margin-top: 15vh;
@@ -588,7 +588,7 @@ p {
     }
 }
 
-.how {
+/* .how {
     margin-top: 2rem;
 }
 .how .bg-text {
@@ -716,7 +716,7 @@ p {
     .how .step h5 {
         font-size: 1.5rem;
     }
-}
+} */
 
 /* testimonials */
 
@@ -996,10 +996,11 @@ footer p {
     font-size: 0.1rem;
     text-align: center;
 }
-footer .container h3 {
+footer .container h2 {
     color: black;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'BigNoodleTitling';
+    font-size: 3rem;
 }
 footer .container h1:hover {
     color: black;
@@ -1016,17 +1017,33 @@ footer .nav {
     margin-right: auto;
     margin-left: auto;
 }
+footer img {
+    width: 300px;
+}
+
 footer .nav .nav-item {
     margin: 1rem 0;
 }
-footer .container h3 {
-    margin-top: 2rem;
+
+footer .nav-item .nav-link {
+    font-size: 1.25rem; 
+    font-weight: 600;
 }
+
 footer .container .col-lg-6 .nav-icons {
     width: max-content;
     font-size: 2rem;
     text-align: center;
+    /* display: block;
+    margin-right: 0;
+    padding: 0; */
+    font-size: 3rem;
 }
+/* 
+footer .nav-icons .nav-link{
+    padding: 0;
+} */
+
 footer .footer-icons {
     width: max-content;
 }
@@ -1034,6 +1051,9 @@ footer .footer-icons {
     footer .nav-link {
         padding-left: 1rem !important;
     }
+    /* footer .nav-icons .nav-link {
+        padding: 0 !important;
+    } */
 }
 @media (min-width: 992px) {
     footer {
@@ -1048,7 +1068,7 @@ footer .footer-icons {
         margin-right: 0;
         margin-left: 0;
     }
-    footer .container h3 {
+    footer .container h2 {
         margin-top: 0;
     }
     footer .container .nav .nav-link {
