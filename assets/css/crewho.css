@@ -988,7 +988,7 @@ footer {
     text-align: center;
     overflow: hidden;
 }
-footer .container {
+footer .row {
     margin-bottom: 1rem;
 }
 
@@ -1001,7 +1001,7 @@ footer p {
 }
 
 .credits {
-    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 footer .container h2 {
     color: black;
@@ -1093,6 +1093,12 @@ footer .footer-icons {
     /* footer .nav .nav-item {
         font-size: 0.75rem;
     } */
+    footer img {
+        width: 400px;
+    }
+    footer .nav-item .nav-link {
+        font-size: 0.75rem;
+    }
 }
 @media (min-width: 1700px) {
     footer h1 {
