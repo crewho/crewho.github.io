@@ -1108,6 +1108,20 @@ footer .footer-icons {
         padding-left: 2rem;
     }
 }
+
+@media (min-width :1200px) {
+    footer img {
+        width: 500px;
+    }
+    footer .container h2 {
+        font-size: 4rem;
+    }
+    footer .nav-icons .nav-link {
+        font-size: 4rem;
+        margin-top: -1rem;
+    }
+}
+
 @media (min-width: 1700px) {
     footer h1 {
         margin-left: 10rem;
