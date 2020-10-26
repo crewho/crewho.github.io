@@ -366,6 +366,7 @@ p {
 /* features section */
 .features{
     overflow: visible;
+    min-height: 100vh;
 }
 .features p{
     font-size: 1.5rem;
@@ -379,12 +380,15 @@ p {
 .features .device-galaxy-s8{
     display: none;
     z-index: 0;
+    max-width: initial !important;
+    position: sticky;
+    top: 5vh;
 }
 
 @media (min-width: 768px){
     .features .device-galaxy-s8{
         display: block;
-        transform: scale(0.75);
+        transform: scale(0.75) !important;
         margin-top: -10rem;
     }
     .features .title{
@@ -411,7 +415,7 @@ p {
 
 @media (min-width: 1400px){
     .features .device-galaxy-s8{
-        transform: scale(0.9);
+        transform: scale(0.9) !important;
         margin-top: -3rem;
     }
 }
@@ -1133,20 +1137,23 @@ footer .footer-icons {
 .content-container {
     display: flex;
 }
-    .content-container > * {
+    /* .content-container > * {
     flex-basis: 100%;
-}
+} */
 
 .right-content {
-    padding-right: 15px;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
 }
 
 .left-content {
-    height: 100vh;
-    position: relative;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
 }
 
-.left-content img {
+.features img {
     position: absolute;
     /* left: 50%;
     top: 50%; */

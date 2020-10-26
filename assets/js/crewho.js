@@ -58,11 +58,12 @@ gsap.defaults({overwrite: 'auto'});
 
 // Set up our scroll trigger
 const ST = ScrollTrigger.create({
-  trigger: ".content-container",
+  trigger: ".features",
   start: "top top",
   end: "bottom bottom",
   onUpdate: getCurrentSection,
-  pin: ".left-content"
+//   start: "-5%",
+//   pin: "#pin-this"
 });
 
 const contentMarkers = gsap.utils.toArray(".contentMarker");
@@ -74,7 +75,7 @@ contentMarkers.forEach(marker => {
   gsap.set(marker.content, {transformOrigin: "top center"});
 
   marker.content.enter = function() {
-    gsap.fromTo(marker.content, {autoAlpha: 0, opacity: 1}, {duration: 0.3, autoAlpha: 1, opacity: 0});
+    gsap.fromTo(marker.content, {autoAlpha: 0, opacity:0}, {duration: 0.3, autoAlpha: 1, opacity:1});
   }
 
   
@@ -115,13 +116,14 @@ function getCurrentSection() {
 }
 
 const media = window.matchMedia("screen and (max-width: 600px)");
-ScrollTrigger.addEventListener("refreshInit", checkSTState);
-checkSTState();
+// ScrollTrigger.addEventListener("refreshInit", checkSTState);
+// checkSTState();
 
-function checkSTState() {
-  if(media.matches) {
-    ST.disable();
-  } else {
-    ST.enable();
-  }
-}
+// function checkSTState() {
+//   if(media.matches) {
+//     ST.disable();
+//   } else {
+//     ST.enable();
+//   }
+// }
+ST.enable();
