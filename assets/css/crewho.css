@@ -328,7 +328,7 @@ p {
     }
     .bg-text{
         display: block;
-        /* padding: 0 5rem; */
+        padding: 0 5rem;
     }
     .home{
         overflow: visible;
@@ -347,7 +347,7 @@ p {
 
 @media (min-width: 1400px){
     .bg-text{
-        /* padding: 0rem 10rem; */
+        padding: 0rem 10rem;
         top: 2.5vh;
     }
 }
@@ -356,7 +356,7 @@ p {
     .bg-text{
         font-size: 17.5rem;
         top: 7.5vh;
-        /* padding: 0 20rem; */
+        padding: 0 20rem;
     }
     .title{
         margin-top: 15vh;
