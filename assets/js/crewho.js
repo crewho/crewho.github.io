@@ -70,20 +70,13 @@ const contentMarkers = gsap.utils.toArray(".contentMarker");
 // Set up our content behaviors
 contentMarkers.forEach(marker => {
   marker.content = document.querySelector(`#${marker.dataset.markerContent}`);
-  
-  if(marker.content.tagName === "IMG") {
-    gsap.set(marker.content, {transformOrigin: "top center"});
-    
-    marker.content.enter = function() {
-      gsap.fromTo(marker.content, {autoAlpha: 0, opacity: 1}, {duration: 0.3, autoAlpha: 1, opacity: 0});
-    }
-  } else if(marker.content.tagName === "BLOCKQUOTE") {
-    gsap.set(marker.content, {transformOrigin: "left center"});
-    
-    marker.content.enter = function() {
-      gsap.fromTo(marker.content, {autoAlpha: 0, rotateY: 50}, {duration: 0.3, autoAlpha: 1, rotateY: 0});
-    }
+
+  gsap.set(marker.content, {transformOrigin: "top center"});
+
+  marker.content.enter = function() {
+    gsap.fromTo(marker.content, {autoAlpha: 0, opacity: 1}, {duration: 0.3, autoAlpha: 1, opacity: 0});
   }
+
   
   marker.content.leave = function() {
     gsap.to(marker.content, {duration: 0.1, autoAlpha: 0});
