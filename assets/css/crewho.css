@@ -1130,3 +1130,35 @@ footer .footer-icons {
         margin-left: 10rem;
     }
 } */
+.content-container {
+    display: flex;
+}
+    .content-container > * {
+    flex-basis: 100%;
+}
+
+.right-content {
+    padding-right: 15px;
+}
+
+.left-content {
+    height: 100vh;
+    position: relative;
+}
+
+.left-content img {
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .left-content {
+        display: none;
+    }
+    .right-content {
+        padding-left: 15px;
+    }
+}
