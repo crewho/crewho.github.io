@@ -279,7 +279,7 @@ p {
 }
 
 .about .title{
-    margin-top: 12.5vh; 
+    margin-top: 15vh; 
 }
 
 .about p{
@@ -308,7 +308,10 @@ p {
         font-size: 8rem;
     }
     .about p{
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .about .title{
+        margin-top: 20vh;
     }
 }
 
