@@ -410,7 +410,8 @@ p {
         font-size: 2rem;
     }
     .features .title{
-        margin-top: 10vh;
+        margin-top: 30vh;
+        height: 75vh;
     }
     .features .device-galaxy-s8{
         margin-top: -5rem;
