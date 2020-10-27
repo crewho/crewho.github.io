@@ -385,7 +385,7 @@ p {
     z-index: 0;
     max-width: initial !important;
     position: sticky;
-    top: -5vh;
+    top: -3vh;
 }
 
 .features img {
@@ -447,9 +447,9 @@ p {
         margin-top: 30vh;
         height: 75vh;
     }
-    .features .device-galaxy-s8{
+    /* .features .device-galaxy-s8{
         margin-top: -5rem;
-    }
+    } */
     .right-content {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
