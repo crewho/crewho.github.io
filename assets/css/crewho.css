@@ -393,6 +393,11 @@ p {
     visibility: hidden;
 }
 
+.only4mobile {
+    transform: scale(0.5);
+    margin: -12rem 0;
+}
+
 @media (min-width: 768px){
     .features .device-galaxy-s8{
         display: block;
@@ -405,9 +410,22 @@ p {
 }
 
 @media (max-width: 992px){
+    .features{
+        overflow: hidden;
+    }
     .features p{
         height: 100% !important;
-        padding: 2rem 1rem;
+        padding: 0rem 2rem;
+        font-size: 1.25rem;
+        margin-bottom: 5rem;
+    }
+    .features .only4mobile {
+        display: block !important;
+        position: initial;
+    }
+    .only4mobile img {
+        opacity: 1;
+        visibility: visible;
     }
 }
 @media (min-width: 992px){
@@ -433,6 +451,9 @@ p {
         -ms-flex: 0 0 41.666667%;
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
+    }
+    .features .only4mobile{
+        display: none !important;
     }
 
 }
