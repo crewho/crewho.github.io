@@ -382,7 +382,15 @@ p {
     z-index: 0;
     max-width: initial !important;
     position: sticky;
-    top: 5vh;
+    top: -5vh;
+}
+
+.features img {
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    opacity: 0;
+    visibility: hidden;
 }
 
 @media (min-width: 768px){
@@ -407,10 +415,24 @@ p {
     .features .device-galaxy-s8{
         margin-top: -5rem;
     }
+    .right-content {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .left-content {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
 }
 
 @media (min-width: 1200px){
-
+    .features .device-galaxy-s8{
+        top: 0vh;
+    }
 }
 
 @media (min-width: 1400px){
@@ -423,6 +445,7 @@ p {
 @media (min-width: 1700px){
     .features .device-galaxy-s8{
         margin-top: 4rem;
+        top: 12.5vh;
     }
     .features .title{
         margin-top: 20vh;
@@ -1140,26 +1163,6 @@ footer .footer-icons {
     /* .content-container > * {
     flex-basis: 100%;
 } */
-
-.right-content {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-}
-
-.left-content {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-}
-
-.features img {
-    position: absolute;
-    /* left: 50%;
-    top: 50%; */
-    opacity: 0;
-    visibility: hidden;
-}
 
 @media screen and (max-width: 800px) {
     .left-content {
