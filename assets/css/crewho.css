@@ -492,6 +492,10 @@ p {
 
 /* testimonials section*/
 
+.testimonials {
+    margin-top: 7vh;
+}
+
 .testimonials p{
     text-align: center;
 }
@@ -533,7 +537,7 @@ p {
 .horizontal .fromRight{
     position:absolute;
     width:300%;
-    height:100%;
+    height:100vh;
     /* left:100%; */
     /* background-color:black; */
     display: flex;
