@@ -494,6 +494,7 @@ p {
 
 .testimonials {
     margin-top: 7vh;
+    overflow: visible !important;
 }
 
 .testimonials p{
