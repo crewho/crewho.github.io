@@ -111,10 +111,6 @@ const init_pointer = (options) => {
             ring.style.opacity = "1"
             isHover = false
         }
-        
-        
-
-         
 
         // ring.style.borderColor = getOption("pointerColor")
         if (mouseDown) {
