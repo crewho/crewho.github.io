@@ -509,12 +509,9 @@ p {
 }
 
 @media (min-width: 1200px){
-    /* .testimonials img{
-         margin-top: 15vh;
-    } */
+    
     .quote{
         font-size: 1.75rem;
-        /* margin-top: 22.5vh; */
     }
     .who{
         font-size: 1.25rem;
@@ -528,7 +525,6 @@ p {
 
 @media (min-width: 1700px){
     .quote{
-        /* margin-top: 27.5vh; */
         font-size: 2rem;
         width: 130%;
     }
@@ -545,13 +541,6 @@ p {
 }
 
 /* ywait section */
-/* .ywait h1{
-    font-family: BigNoodleTitling;
-    font-style: italic;
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 40vh;
-} */
 
 .ywait .title{
     color: white;
