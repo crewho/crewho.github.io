@@ -76,7 +76,13 @@ const init_pointer = (options) => {
             pointer.style.borderColor = "black"
             ring.style.borderColor = getOption("pointerColor")
             isHover = true
-        } else {
+        } else if (document.querySelector("footer:hover")) {
+            pointer.style.borderColor = "white"
+            ring.style.borderColor = "black"
+            isHover = true
+        }
+        
+        else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
             isHover = false
