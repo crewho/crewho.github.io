@@ -54,7 +54,7 @@ const init_pointer = (options) => {
         ringX = trace(ringX, mouseX, 0.2)
         ringY = trace(ringY, mouseY, 0.2)
 
-        if (document.querySelector(".p-action-click:hover")) {
+        if (document.querySelector(".btn-action-hover:hover")) {
             pointer.style.borderColor = "black"
             ring.style.borderColor = getOption("ringColor")
             ring.style.padding = getOption("ringSize") + 5 + "px"
