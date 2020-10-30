@@ -82,13 +82,28 @@ const init_pointer = (options) => {
         } else if (document.querySelector("footer:hover")) {
             pointer.style.borderColor = "white"
             ring.style.borderColor = "black"
-            ring.style.opacity = "0"
             isHover = true
         } else if (document.querySelector("p:hover")) {
             pointer.style.borderColor = getOption("pointerColor")
             ring.style.opacity = "0"
+            isHover = true
+        } 
+        // else if (document.querySelector(".title:hover")) {
+        //     ring.style.opacity = "0"
+        //     isHover = true
+        // } 
+        else if (document.querySelector(".ywait:hover")) {
+            pointer.style.borderColor = "#1C1C1C"
+            ring.style.borderColor = "#1C1C1C"
+            ring.style.opacity = "1"
+            isHover = true
         }
-        
+        else if (document.querySelector(".tagline:hover")) {
+            pointer.style.borderColor = "#1C1C1C"
+            ring.style.borderColor = "#1C1C1C"
+            ring.style.opacity = "1"
+            isHover = true
+        }
         else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
