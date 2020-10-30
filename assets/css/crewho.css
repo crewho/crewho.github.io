@@ -211,8 +211,12 @@ p {
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     border-radius: 0.75rem;
-    transition: 750ms;
+    transition: 500ms;
     font-weight: 600;
+}
+
+.main-button .btn-lg:hover {
+    transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
