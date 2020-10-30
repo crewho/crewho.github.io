@@ -535,7 +535,6 @@ p {
         font-size: 1rem;
     }
     .testimonials img{
-        /* margin-top: 20vh; */
         width: 120%;
     }
 }
@@ -556,18 +555,6 @@ p {
     .ywait .title{
         font-size: 5rem;
     }
-}
-
-@media (min-width: 1200px){
-
-}
-
-@media (min-width: 1400px){
-
-}
-
-@media (min-width: 1700px){
-
 }
 
 .tagline .title{
