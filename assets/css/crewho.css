@@ -888,15 +888,9 @@ footer .footer-icons {
 .content-container {
     display: flex;
 }
-    /* .content-container > * {
-    flex-basis: 100%;
-} */
 
 @media screen and (max-width: 800px) {
     .left-content {
         display: none;
     }
-    /* .right-content {
-        padding-left: 15px;
-    } */
 }
