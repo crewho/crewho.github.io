@@ -363,7 +363,7 @@ p {
 @media (min-width: 1700px) {
     .bg-text{
         font-size: 17.5rem;
-        top: 7.5vh;
+        top: 5vh;
         padding: 0 20rem;
     }
     .about .title{
