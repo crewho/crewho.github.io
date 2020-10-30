@@ -88,10 +88,10 @@ const init_pointer = (options) => {
             ring.style.opacity = "0"
             isHover = true
         } 
-        // else if (document.querySelector(".title:hover")) {
-        //     ring.style.opacity = "0"
-        //     isHover = true
-        // } 
+        else if (document.querySelector(".title:hover")) {
+            ring.style.opacity = "0"
+            isHover = true
+        } 
         else if (document.querySelector(".ywait:hover")) {
             pointer.style.borderColor = "#1C1C1C"
             ring.style.borderColor = "#1C1C1C"
