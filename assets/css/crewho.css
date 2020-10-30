@@ -214,6 +214,7 @@ p {
     transition: 750ms;
     font-weight: 600;
 }
+
 @media (min-width: 768px) {
     .home .device-galaxy-s8 {
         transform: scale(1);
