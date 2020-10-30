@@ -65,25 +65,26 @@ const init_pointer = (options) => {
         }
 
         if (document.querySelector(".btn-action-hover:hover")) {
-            pointer.style.borderColor = "black"
-            ring.style.borderColor = getOption("ringColor")
-            isHover = true
-        } else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
-            isHover = false
-        }
-
-        if (document.querySelector(".nav-action-hover:hover")) {
+            isHover = true
+        } else if (document.querySelector(".nav-action-hover:hover")) {
             pointer.style.borderColor = getOption("pointerColor")
-            ring.style.borderColor = getOption("ringColor")
+            ring.style.borderColor = "black"
+            isHover = true
+        } else  if (document.querySelector(".footer-action-hover:hover")) {
+            pointer.style.borderColor = "black"
+            ring.style.borderColor = getOption("pointerColor")
             isHover = true
         } else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
             isHover = false
         }
+        
+        
 
+         
 
         // ring.style.borderColor = getOption("pointerColor")
         if (mouseDown) {

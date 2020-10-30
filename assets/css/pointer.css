@@ -13,8 +13,7 @@
     border-radius: 8px;
     z-index: 1;
     pointer-events: none;
-    transition: border-color 0.5s;
-    transition: opacity 0.25s;
+    transition: border-color 0.5s, opacity 0.5s;
 }
 
 #pointer-ring {
@@ -28,8 +27,7 @@
     border-radius: 100px;
     z-index: 2;
     pointer-events: none;
-    transition: border-color 0.5s;
-    transition: opacity 0.25s;
+    transition: border-color 0.5s, opacity 0.5s;
 }
 
 html {
