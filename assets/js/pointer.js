@@ -54,37 +54,45 @@ const init_pointer = (options) => {
         ringX = trace(ringX, mouseX, 0.2)
         ringY = trace(ringY, mouseY, 0.2)
 
-        if (document.querySelector(".action-hover:hover")) {
-            ring.style.padding = getOption("ringSize") + 5 + "px"
-            ring.style.opacity = "0"
-            isHover = true 
-        } else {
-            ring.style.padding = getOption("ringSize") + "px"
-            ring.style.opacity = "1"
-            isHover = false
-        }
+        // if (document.querySelector(".action-hover:hover")) {
+        //     ring.style.padding = getOption("ringSize") + 5 + "px"
+        //     ring.style.opacity = "0"
+        //     isHover = true 
+        // } else {
+        //     ring.style.padding = getOption("ringSize") + "px"
+        //     ring.style.opacity = "1"
+        //     isHover = false
+        // }
 
         if (document.querySelector(".btn-action-hover:hover")) {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
+            ring.style.opacity = "0"
             isHover = true
         } else if (document.querySelector(".nav-action-hover:hover")) {
             pointer.style.borderColor = getOption("pointerColor")
             ring.style.borderColor = "black"
+            ring.style.opacity = "0"
             isHover = true
         } else  if (document.querySelector(".footer-action-hover:hover")) {
             pointer.style.borderColor = "black"
             ring.style.borderColor = getOption("pointerColor")
+            ring.style.opacity = "0"
             isHover = true
         } else if (document.querySelector("footer:hover")) {
             pointer.style.borderColor = "white"
             ring.style.borderColor = "black"
+            ring.style.opacity = "0"
             isHover = true
+        } else if (document.querySelector("p:hover")) {
+            pointer.style.borderColor = getOption("pointerColor")
+            ring.style.opacity = "0"
         }
         
         else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
+            ring.style.opacity = "1"
             isHover = false
         }
         
