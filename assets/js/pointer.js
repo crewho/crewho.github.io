@@ -54,17 +54,37 @@ const init_pointer = (options) => {
         ringX = trace(ringX, mouseX, 0.2)
         ringY = trace(ringY, mouseY, 0.2)
 
+        if (document.querySelector(".action-hover:hover")) {
+            ring.style.padding = getOption("ringSize") + 5 + "px"
+            ring.style.opacity = "0"
+            isHover = true 
+        } else {
+            ring.style.padding = getOption("ringSize") + "px"
+            ring.style.opacity = "1"
+            isHover = false
+        }
+
         if (document.querySelector(".btn-action-hover:hover")) {
             pointer.style.borderColor = "black"
             ring.style.borderColor = getOption("ringColor")
-            ring.style.padding = getOption("ringSize") + 5 + "px"
             isHover = true
         } else {
             pointer.style.borderColor = getOption("ringColor")
             ring.style.borderColor = getOption("pointerColor")
-            ring.style.padding = getOption("ringSize") + "px"
             isHover = false
         }
+
+        if (document.querySelector(".nav-action-hover:hover")) {
+            pointer.style.borderColor = getOption("pointerColor")
+            ring.style.borderColor = getOption("ringColor")
+            isHover = true
+        } else {
+            pointer.style.borderColor = getOption("ringColor")
+            ring.style.borderColor = getOption("pointerColor")
+            isHover = false
+        }
+
+
         // ring.style.borderColor = getOption("pointerColor")
         if (mouseDown) {
             ring.style.padding = getOption("ringClickSize") + "px"
