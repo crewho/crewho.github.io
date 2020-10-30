@@ -1102,11 +1102,12 @@ footer p {
 .credits {
     margin-top: 2rem;
 }
-footer .container h2 {
+footer .container .row h2 {
     color: black;
     font-weight: 400;
     font-family: 'BigNoodleTitling';
     font-size: 3rem;
+    font-style: italic;
 }
 footer .container h1:hover {
     color: black;
