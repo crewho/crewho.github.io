@@ -149,3 +149,7 @@ var action = gsap.timeline({
 .to(slides, {xPercent: -100, duration:5, ease: "none", stagger:3, delay: 0.5})
 // .to({},{duration:1})    // an empty tween to generate a pause at the end
   
+
+console.log("Hello there, fellow inspector")
+console.log(".")
+console.log(".")
