@@ -153,3 +153,5 @@ var action = gsap.timeline({
 console.log("Hello there, fellow inspector")
 console.log(".")
 console.log(".")
+console.log("Welcome to Crewho's website")
+console.log("Designed and Developed by Advay Sai Inabathini")
